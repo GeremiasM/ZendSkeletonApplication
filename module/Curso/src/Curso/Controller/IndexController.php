@@ -11,8 +11,7 @@ namespace Application\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
-//use Application\Service\UsuarioService;
-use Curso\Service\UsuarioService;
+use Application\Service\UsuarioService;
 
 class IndexController extends AbstractActionController
 {
