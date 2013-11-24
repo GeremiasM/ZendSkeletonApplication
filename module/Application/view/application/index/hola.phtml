@@ -1,2 +1,13 @@
 
-<?php echo $this->nombre ?>
+<?php 
+if($this->objeto instanceof Application\Service\UsuarioInterface):
+	 
+?>
+<?php echo $this->nombre.'<br>';
+echo $this->objeto->getNombre().'<br>';
+echo $this->objeto->getApellidoPaterno().'<br>';
+echo $this->objeto->getApellidoMaterno().'<br>';?>
+
+<?php 
+endif;
+?>
